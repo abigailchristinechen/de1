@@ -29,7 +29,8 @@ SELECT state FROM new_birdstrikes WHERE state IS NOT NULL AND state != '' and bi
 -- colorado 
 
 -- exercise #6: how many days elapsed between the current date and the flights happening in week 52, for incidents from Colorado (Hint: USENOW, DATEDIFF WEEKOFTHEYEAR)
-SELECT * FROM new_birdstrikes WHERE state ='Colorado' AND WEEKOFYEAR (flight_date) = '52';
+SELECT DATEDIFF(flight_date, NOW()) FROM new_birdstrikes WHERE WEEKOFYEAR(flight_date)= 52 AND state = 'Colorado';
+-- 7948
 
 
 
