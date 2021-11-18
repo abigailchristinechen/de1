@@ -49,6 +49,26 @@ GROUP BY orderNumber;
 -- Exercise #3: We want to know how the employees are performing. 
 -- Join orders, customers and employees and return orderDate,lastName, firstName
 
+SELECT 
+	orders.orderDate,
+	lastName,
+	firstName,
+	salesRepEmployeeNumber,
+    -- ROUND(COUNT(status)/(COUNT(orderNumber))* 100) AS totalOrder,
+    -- COUNT(salesRepEmployeeNumber) AS employeeCount,
+    -- COUNT(Status) AS statusCount,
+    status
+FROM 
+	orders
+INNER JOIN 
+	customers
+ON 
+	orders.customerNumber = customers.customerNumber
+INNER JOIN 
+	employees
+ON 
+	customers.salesRepEmployeeNumber = employees.employeeNumber
+GROUP BY 
 
 
 
