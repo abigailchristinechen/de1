@@ -47,9 +47,9 @@ Events
     
         <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/Table%203.png" width="300" height="160"/>
        
+    Here's the EER diagram for the relationship: 
     
-
-
+        <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/EER%20Diagram.png" width="800" height = "200"/>
 
 
 
