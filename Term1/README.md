@@ -63,3 +63,63 @@ Events
 4. Analytics Layer
      - The data warehouse consists of 3 dimensions: Rankings, Scores and Salaries. 
        <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/data_warehouse_etl_uni.png" width="1000" height="200"/>
+       
+5. Data Marts
+
+Data View 1: Summary of all Universities?
+-- This data covers the top 1526 universities globally. :) 
+
+
+Data View 2: Summary of top 1000 universities
+-- This data covers the top 1000 universities globally 
+
+Data View 3: Summary of top 100 universities
+-- This data covers the top 100 universities globally 
+
+
+Data View 4: what countries has the most ranked universities
+-- This data shows US, Japan, UK, China India as the top 5 countries with the most ranked universities, 
+-- Hungary has 9 universities ranked, unfortunately CEU is not one of it :( 
+
+
+Data View 5: what are the average scores of the countries with ranked universitis
+-- This data view is really useful to see where the various countries scored high in
+-- For Student Prof ratio : Japan is the lowest out of the top 5 countries(based on the count of uni per country).
+-- For Country Diversity: UK ranks the highest followed by the US, 
+-- with UK having almost double the international population of US universities.
+-- Japan, China and India are mostly dominated by local students. 
+
+Data View 6: what are the top 10 countries based on count of university and what are their details
+-- top 10 countries based on the count of universities    
+    
+Data View 7: what are the average rankings per countriy
+-- We can see that Singapore, Netherlands, Hongkong, Switzerland and Belgium have the highest average rank.
+-- Note: that Singapore only had two unis in the ranking.
+
+Data View 8: top universities in the US
+ -- Here we can see the top US universities with details
+ -- The salaries data I found was for US universities, and didn't have complete salaries for all the US universities
+ -- 8/10 top universities are from the US
+ 
+Data View 9: top universities in China
+ 
+Data View 10: top universities in Japan
+
+
+Data View 11: top universities in the UK
+
+    
+Data View 12: which universities have the highest research scores?
+-- We can see that the top 1 uni, which is University of Oxford has 100 for it's research score
+-- Followed by Harvard University and University of Cambridge with a reserach score of 99.
+
+Data View 13: which universities have the highest citations scores?
+-- We can see here that 21 universities got a perfect score in the citations.
+
+Data View 14: which universities have the highest teaching scores?
+-- 7/10 top teaching unis are from the US
+-- 2/10 top teaching unis are from the UK
+-- 1/10 Peking University from China is ranked 8th in teaching score, ranking higher than Princeston University 
+
+Data View 15: top universities in Hungary
+-- can't forget to check Hungary too ;)
