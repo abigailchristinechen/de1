@@ -35,44 +35,20 @@ Events
         
 
 2.  Operational Layer 
+    
     1.  The *University Ranking* contains 2 tables which contain the following details
-        - Table 1: University Rankings 
-        -   Ranking
-        -   Title
-        -   Location
-        -   Number of Students
-        -   Student & Staff Ratio 
-        -   Percent International Student
-        -   Gender Ratio
-      
-        - Table 2: University Scores
-        -   Ranking
-        -   Title
-        -   Location 
-        -   Overall Score
-        -   Teaching Score
-        -   Research Score
-        -   Citations Score
-        -   Industry Income Score
-        -   International Outlook Score
+
+       <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/Table%201.png" width="300" height="150"/>
+       
+       <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/Table%202.png" width="300" height="160"/>
+        
         
      2. The *Salaries Dataset* contains 3 tables from which I only used the Salaries per region, because the other tables were about the various departments in the universities. Here are the details:
-     
-        - Table 3: Salaries per Region
-        -   School Name
-        -   Region
-        -   Starting Median Salary
-        -   Mid-Career Median Salary
-        -   Mid-Career 10th Percentile Salary
-        -   Mid-Career 25th Percentile Salary
-        -   Mid-Career 75th Percentile Salary
-        -   Mid-Career 90th Percentile Salary
+    
+        <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/Table%203.png" width="300" height="160"/>
+       
+    
 
-     4. 
-
-
-
-Food and Goods Deliveries in Brazil dataset contains seven tables which are as following; Channels, Deliveries, Drivers, Hubs, Orders, Payments, Stores which can be found here. This dataset is the records of Food and Goods in Brazil from 2021-01-01 to 2021-04-30 across 396 stores. In order to understand the relationship between tables the below EER diagram further illustrates it. As the EER diagram shows Orders as the central table for this project. Major part of the data comes from this table. Second table is the payments information for the orders. Third table consists of delivery information and as so fourth stores and channel further add information about stores name and channel details. Further information about operational layer can be found here.
 
 
 
