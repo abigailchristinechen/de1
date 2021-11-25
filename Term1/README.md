@@ -7,15 +7,14 @@
 
 
 Table of Contents
-- Data Sources
+- [Data Sources](#1. Data Sources)
 - Operational Layer
 - Analytics
 - Analytics Layer
 - Data Marts
 - Events
 
-
-1. Data Sources
+1. <h3>Data Sources </h3>
     1.  University Ranking from Kaggle 
         [University Ranking Data :](https://www.kaggle.com/mylesoneill/world-university-rankings) 
         - The first dataset is about the different universities in the world. 
@@ -33,10 +32,10 @@ Table of Contents
         - You can compare these salaries to the tuition and expenses you are expected to incur and see your estimated payback.
         - You can also do queries on which state to go to for more options
         
-    3.  [Both datasets are in a zip folder in this repository -> [Here](https://github.com/abigailchristinechen/de1/tree/main/Term1/data)
+    3.  Both datasets are in a zip folder in this repository -> [Here](https://github.com/abigailchristinechen/de1/tree/main/Term1/data)
         
 
-2.  Operational Layer 
+2. <h3>Operational Layer </h3> 
     
     1.  The *University Ranking* contains [Table 1](https://github.com/abigailchristinechen/de1/blob/main/Term1/Table%201.png) , [Table 2](https://github.com/abigailchristinechen/de1/blob/main/Term1/Table%202.png) which contain the following details
 
@@ -53,18 +52,19 @@ Table of Contents
     
        <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/EER%20Diagram.png" width="700" height="300"/>
 
-3.  Analytics
+3. <h3>Analytics </h3> 
      - For this project, and for reproducibility here is the [Analytics Plan](https://github.com/abigailchristinechen/de1/blob/main/Term1/Analytics%20Plan.png) quick summary on the steps
         - Loading the tables
         - Creating a data warehouse called dw_uni_analysis
         - Creating data marts to achieve 15 quick views
      <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/Analytics%20Plan.png" width="600" height="300"/>
 
-4. Analytics Layer
+4. <h3>Analytics Layer</h3> 
      - Here is the [Data Warehouse](https://github.com/abigailchristinechen/de1/blob/main/Term1/data_warehouse_etl_uni.png) consisting of 3 dimensions: Rankings, Scores and Salaries. 
      <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/data_warehouse_etl_uni.png" width="1000" height="200"/>
        
-5. Data Marts
+5. <h3> Data Marts</h3> 
+- The codes for the Data Marts are -> [Here](https://github.com/abigailchristinechen/de1/blob/main/Term1/codes/data_warehouse_etl_uni.sql)
 
 **<h5> Data View 1: Summary of all Universities? </h5>**
 <h6> This data covers the top 1526 universities globally. :) </h6>
@@ -124,4 +124,6 @@ Table of Contents
 **<h5>Data View 15: top universities in Hungary </h5>**
 <h6> - Can't forget to check Hungary too 😉. </h6>
 
+6. <h3>Events</h3> 
+I also created an event scheduler to refresh the data, you can tweak it to a specific time frame you want  -> [Here](https://github.com/abigailchristinechen/de1/blob/main/Term1/codes/university_event_scheduler.sql)
 
