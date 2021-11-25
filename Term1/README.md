@@ -17,7 +17,7 @@ Table of Contents
 
 1. Data Sources
     1.  University Ranking from Kaggle 
-        - [University Ranking Data :] (https://www.kaggle.com/mylesoneill/world-university-rankings) 
+        [University Ranking Data :](https://www.kaggle.com/mylesoneill/world-university-rankings) 
         - The first dataset is about the different universities in the world. 
         - Here's we'll see the various aspects of university rankings eg. citations, culture diversity, gender balance.
         - With these parameters, we can see which universities are comparable to each other. 
@@ -27,13 +27,13 @@ Table of Contents
             <img src="https://media.giphy.com/media/qLHzYjlA2FW8g/giphy.gif" />
   
     2.  Where It Pays to Attend College from Kaggle 
-        - [Salaries Data :] (https://www.kaggle.com/wsj/college-salaries) 
+        [Salaries Data :](https://www.kaggle.com/wsj/college-salaries) 
         - Salaries Region data, this dataset contains data for the different universities and colleges in the US.
         - Here, you'll see the entry level, mid level and percentiles of salaries from various universities.
         - You can compare these salaries to the tuition and expenses you are expected to incur and see your estimated payback.
         - You can also do queries on which state to go to for more options
         
-    3.  [Both datasets are in a zip folder in this repository. You can download them here:]    (https://github.com/abigailchristinechen/de1/tree/main/Term1/data)
+    3.  [Both datasets are in a zip folder in this repository -> [Here](https://github.com/abigailchristinechen/de1/tree/main/Term1/data)
         
 
 2.  Operational Layer 
