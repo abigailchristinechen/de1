@@ -54,10 +54,12 @@ Events
        <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/EER%20Diagram.png" width="700" height="300"/>
 
 3.  Analytics
-
      - For this project, and for reproducibility here is a quick summary on the steps
         - Loading the tables
         - Creating a data warehouse called dw_uni_analysis
         - Creating data marts to achieve 15 quick views
        <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/Analytics%20Plan.png" width="600" height="300"/>
 
+4. Analytics Layer
+     - The data warehouse consists of 3 dimensions: Rankings, Scores and Salaries. 
+       <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/data_warehouse_etl_uni.png" width="1000" height="200"/>
