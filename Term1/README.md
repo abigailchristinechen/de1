@@ -15,7 +15,7 @@ Data Marts
 Events
 
 
-1. Data Sources 
+1. Data Sources
     1.  University Ranking from Kaggle 
         - [University Ranking Data :] (https://www.kaggle.com/mylesoneill/world-university-rankings) 
         - The first dataset is about the different universities in the world. 
@@ -23,6 +23,8 @@ Events
         - With these parameters, we can see which universities are comparable to each other. 
         - If you're also planning to study abroad, this will give you a glimpse of which country & top diverse uni to go to. 
         - How does your university compare globally?
+
+            <img src="https://media.giphy.com/media/qLHzYjlA2FW8g/giphy.gif" />
   
     2.  Where It Pays to Attend College from Kaggle 
         - [Salaries Data :] (https://www.kaggle.com/wsj/college-salaries) 
@@ -38,19 +40,24 @@ Events
     
     1.  The *University Ranking* contains 2 tables which contain the following details
 
-       <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/Table%201.png" width="300" height="150"/>
+       <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/Table%201.png" width="250" height="120"/>
        
-       <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/Table%202.png" width="300" height="160"/>
+       <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/Table%202.png" width="250" height="140"/>
         
         
      2. The *Salaries Dataset* contains 3 tables from which I only used the Salaries per region, because the other tables were about the various departments in the universities. Here are the details:
     
-        <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/Table%203.png" width="300" height="160"/>
+        <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/Table%203.png" width="250" height="140"/>
        
     Here's the EER diagram for the relationship: 
     
-        <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/EER%20Diagram.png" width="800" height = "200"/>
+       <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/EER%20Diagram.png" width="700" height="300"/>
 
+3.  Analytics
 
+     - For this project, and for reproducibility here is a quick summary on the steps
+        - Loading the tables
+        - Creating a data warehouse called dw_uni_analysis
+        - Creating data marts to achieve 15 quick views
+       <img src= "https://github.com/abigailchristinechen/de1/blob/main/Term1/Analytics%20Plan.png" width="600" height="300"/>
 
-<img src="https://media.giphy.com/media/qLHzYjlA2FW8g/giphy.gif" />
